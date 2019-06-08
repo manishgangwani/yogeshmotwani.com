@@ -1,70 +1,50 @@
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
+@import 'libs/skel';
 
 /*
-	Overflow by HTML5 UP
+	Forty by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Basic */
-
-	body {
-		background-image: url('../../images/bg.jpg');
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: auto;
-		background-attachment: scroll;
-		-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
-	}
-
-/* Section/Article */
-
-	section > .last-child,
-	article > .last-child,
-	section.last-child,
-	article.last-child {
-		margin-bottom: 0;
-	}
-
 /* Button */
 
-	input[type="button"],
-	input[type="submit"],
-	input[type="reset"],
-	button,
 	.button {
-		position: relative;
-		-ms-behavior: url('assets/js/ie/PIE.htc');
+		border: solid 2px !important;
 
-		&.style2 {
-			&:hover {
-				color: #35b88f !important;
+		&.next {
+			padding-right: 1.75em;
+
+			&:before, &:after {
+				display: none;
 			}
-		}
-
-		&.style3 {
-			background: #fefefe;
-			border: solid 1px #dad9d9;
 		}
 	}
 
-/* Footer */
+/* Tiles */
 
-	#footer {
-		.icons {
-			position: relative;
-			-ms-behavior: url('assets/js/ie/PIE.htc');
+	.tiles {
+		article {
+			width: 50%;
+			-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
+			background-size: cover;
 		}
 	}
 
-/* Header */
+/* Banner */
 
-	#header {
-		header {
-			p {
-				border-top: solid 1px #888;
-			}
+	#banner {
+		-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
+
+		&:after {
+			display: none;
 		}
+	}
+
+/* Menu */
+
+	#menu {
+		background: _palette(bg);
 	}
