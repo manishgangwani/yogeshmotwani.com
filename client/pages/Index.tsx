@@ -33,7 +33,7 @@ export default function Index() {
   const projects = [
     { title: "Roku on Web", category: "Roku", tags: ["Mobile", "Web UX"], href: "/projects/Roku Launchpad.pdf", image: "/images/Roku Web.png", passcode: "1994" },
     { title: "Roku Search Feeds", category: "Roku", tags: ["Web portal", "B2B UX"], href: "/projects/Search feed.pdf", image: "/images/Search feed.png" },
-    { title: "Roku Developers", category: "Roku", tags: ["Web portal", "Branding"], href: "/projects/Roku Launchpad.pdf", image: "/images/Launchpad.png" },
+    { title: "Roku Developers", category: "Roku", tags: ["Web portal", "Branding"], href: "/projects/Roku.pdf", image: "/images/Launchpad.png" },
     { title: "Cyber Risk Analysis", category: "Guidewire", tags: ["Dashboards", "Data visualization"], href: "/projects/GW_Cyence.pdf", image: "/images/Cyence.png" },
     { title: "Smart Claims Filing", category: "Guidewire", tags: ["Conversational UI", "Mobile"], href: "/projects/GW_CUI.pdf", image: "/images/GW CUI.png" },
     { title: "Contact Center", category: "SAP", tags: ["Support UX", "Web app"], href: "/projects/Contact-Center.pdf", image: "/images/Contact Center.png" },
@@ -183,10 +183,10 @@ export default function Index() {
         <div className="max-w-6xl mx-auto">
           <div className="flex items-center justify-between mb-8 flex-wrap gap-4">
             <h2 className="text-4xl font-bold">Experience</h2>
-            <button className="inline-flex items-center gap-2 px-4 py-2 text-sm bg-gradient-to-r from-primary to-accent text-white font-semibold rounded-lg hover:shadow-lg transition-all">
+            <a href="/Resume.pdf" download className="inline-flex items-center gap-2 px-4 py-2 text-sm bg-gradient-to-r from-primary to-accent text-white font-semibold rounded-lg hover:shadow-lg transition-all">
               <Download size={16} />
               Download Resume
-            </button>
+            </a>
           </div>
 
           <div className="space-y-8">
