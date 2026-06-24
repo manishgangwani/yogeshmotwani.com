@@ -33,7 +33,7 @@ export default function Index() {
   const projects = [
     { title: "Roku on Web", category: "Roku", tags: ["Mobile", "Web UX"], href: "https://www.figma.com/deck/3isRZVBdJ5FOfNG6gvwLEW/Roku-on-Web-UX?node-id=3-116&viewport=-95%2C-40%2C0.46&t=VBzkeED6AYS6gocb-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1", image: "/images/Roku Web.png", passcode: "1994" },
     { title: "Roku Search Feeds", category: "Roku", tags: ["Web portal", "B2B UX"], href: "/projects/Search feed.pdf", image: "/images/Search feed.png" },
-    { title: "Roku Developers", category: "Roku", tags: ["Web portal", "Branding"], href: "/projects/Roku.pdf", image: "/images/Launchpad.png" },
+    { title: "Roku Developers", category: "Roku", tags: ["Web portal", "Branding"], href: "/projects/Roku Launchpad.pdf", image: "/images/Launchpad.png" },
     { title: "Cyber Risk Analysis", category: "Guidewire", tags: ["Dashboards", "Data visualization"], href: "/projects/GW_Cyence.pdf", image: "/images/Cyence.png" },
     { title: "Smart Claims Filing", category: "Guidewire", tags: ["Conversational UI", "Mobile"], href: "/projects/GW_CUI.pdf", image: "/images/GW CUI.png" },
     { title: "Contact Center", category: "SAP", tags: ["Support UX", "Web app"], href: "/projects/Contact-Center.pdf", image: "/images/Contact Center.png" },
