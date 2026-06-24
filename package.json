@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cp dist/spa/index.html index.html && rm -rf assets && cp -r dist/spa/assets assets",
+    "build": "vite build && cp -r dist/spa/. .",
     "format.fix": "prettier --write .",
     "typecheck": "tsc"
   },
