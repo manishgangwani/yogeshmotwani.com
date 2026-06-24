@@ -104,7 +104,7 @@ export default function Index() {
               </p>
               <div className="grid grid-cols-3 gap-4 pt-4">
                 {[
-                  { icon: Lightbulb, title: "UX Strategy & Design" },
+                  { icon: Lightbulb, title: "UX Design" },
                   { icon: Code, title: "Agentic coding" },
                   { icon: Palette, title: "Visual Design" },
                 ].map((skill, i) => {
