@@ -55,7 +55,7 @@ export default function Index() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden px-6 py-20">
+      <section className="relative min-h-[85vh] flex items-start sm:items-center justify-center overflow-hidden px-6 pt-16 pb-20 sm:py-20">
         <div className="absolute top-20 right-10 w-72 h-72 bg-primary/20 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float" />
         <div className="absolute bottom-10 left-10 w-72 h-72 bg-accent/20 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float" style={{ animationDelay: "1s" }} />
 
