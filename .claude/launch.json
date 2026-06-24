@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "UX Portfolio",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 8080,
+      "autoPort": false
+    },
+    {
+      "name": "profiles-activity-web",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "cwd": "/Users/ymotwani/Downloads/profiles-activity-web",
+      "port": 5173
+    }
+  ]
+}
